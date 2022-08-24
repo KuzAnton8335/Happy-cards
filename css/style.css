@@ -86,7 +86,7 @@ ul {
 .header__button-change {
   width: 300px;
   height: 65px;
-  background-color: #c300c7;
+
   border-radius: 30px;
   border: none;
   font-weight: 700;
@@ -97,6 +97,14 @@ ul {
 
 .header__button-change:last-child {
   margin-right: 0;
+}
+
+.men .header__button-change {
+  background-color: #1178b3;
+}
+
+.women .header__button-change {
+  background-color: #c300c7;
 }
 
 .header__button-gender {
@@ -156,22 +164,20 @@ ul {
   top: 50%;
   transform: translate(-50%, -50%);
   font-size: max(3em, min(calc(100vw * 3 / 140), 6em));
-  font-family: "Bad Script", sans-serif;
   font-style: italic;
   font-weight: 400;
   line-height: 1.6;
   color: #000000;
 }
 
-/*.women .card__text {
+.women .card__text {
   font-family: "Bad Script", sans-serif;
 }
 
 .men .card__text {
   font-family: "Open sans", sans-serif;
   font-weight: 700;
-  color: #fff;
-}*/
+}
 .footer {
   padding: 17px 0;
 }
